@@ -1,0 +1,104 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="dialog_select_media_type_content_padding">10dp</dimen>
+    <dimen name="dialog_select_media_type_window_size">200dp</dimen>
+    <dimen name="dialog_width">250dp</dimen>
+    <dimen name="dialog_radio_operations_width">100dp</dimen>
+    <dimen name="dialog_devices_width">100dp</dimen>
+    <dimen name="dialog_select_media_type_icon_size">60dp</dimen>
+    <dimen name="dialog_call_view_button_size">40dp</dimen>
+    <dimen name="dialog_call_view_active_button_size">30dp</dimen>
+    <dimen name="dialog_call_view_width">190dp</dimen>
+
+    <dimen name="button_height">30dp</dimen>
+
+
+    <dimen name="dialog_select_media_type_container_padding">7dp</dimen>
+    <dimen name="fragment_media_list_padding">8dp</dimen>
+    <dimen name="fragment_media_audio_list_drawble_size">25dp</dimen>
+    <dimen name="fragment_bottom_view_height">74dp</dimen>
+    <dimen name="fragment_bottom_height">95dp</dimen>
+    <dimen name="fragment_bottom_controls_horizontal_padding">7dp</dimen>
+    <dimen name="active_fragment_margin_horizontal">10dp</dimen>
+    <dimen name="active_fragment_margin_vertical">5dp</dimen>
+    <dimen name="active_fragment_padding_horizontal">10dp</dimen>
+    <dimen name="active_fragment_padding_vertical">5dp</dimen>
+    <dimen name="app_item_icon_size">60dp</dimen>
+    <dimen name="video_view_controls_left_margin">9dp</dimen>
+    <dimen name="video_view_controls_size">25dp</dimen>
+    <dimen name="media_item_margin">5dp</dimen>
+    <dimen name="dialog_select_media_type_box_size">100dp</dimen>
+    <dimen name="copy_files_panel_item_margin">7dp</dimen>
+    <dimen name="equalizer_seek_vertical_width">30dp</dimen>
+
+
+    <dimen name="vertical_line_seek_bar_second_text_size">14sp</dimen>
+    <dimen name="vertical_line_seek_bar_primary_text_size">14sp</dimen>
+
+    <dimen name="text_medium_size">14sp</dimen>
+    <dimen name="diagnostics_fault_info_medium_size">14sp</dimen>
+    <dimen name="audio_title_text_size">15sp</dimen>
+    <dimen name="audio_artist_text_size">11sp</dimen>
+    <dimen name="dialog_select_media_type_text_size">13sp</dimen>
+    <dimen name="dialog_title">13sp</dimen>
+    <dimen name="dialog_content">11sp</dimen>
+    <dimen name="dialog_button_text_size">13sp</dimen>
+    <dimen name="dialog_sub_title">13sp</dimen>
+    <dimen name="media_control_time_size">9sp</dimen>
+    <dimen name="media_bottom_control_time_size">7.3sp</dimen>
+    <dimen name="media_control_title_size">16sp</dimen>
+    <dimen name="media_file_description_text_size">9sp</dimen>
+    <dimen name="copy_files_panel_text_size">9sp</dimen>
+    <dimen name="media_file_count_text_size">11sp</dimen>
+    <dimen name="bottom_control_text_size">12sp</dimen>
+    <dimen name="right_menu_text_size">17sp</dimen>
+    <dimen name="right_menu_weather_text_size">35.5sp</dimen>
+    <dimen name="phone_contact_title_text_size">15sp</dimen>
+    <dimen name="phone_contact_subtitle_text_size">12sp</dimen>
+    <dimen name="phone_main_dial_text_size">35sp</dimen>
+    <dimen name="phone_main_header_text_size">16.8sp</dimen>
+    <dimen name="audio_system_settings_tab_text_size">14.8sp</dimen>
+    <dimen name="bluetooth_button_text_size">16.8sp</dimen>
+    <dimen name="climatic_action_text_size">16sp</dimen>
+    <dimen name="climatic_radio_text_size">10.5sp</dimen>
+    <dimen name="climatic_hint_text_size">10.5sp</dimen>
+    <dimen name="climatic_value_text_size">27sp</dimen>
+    <dimen name="climatic_pzhd_week_text_size">21sp</dimen>
+    <dimen name="climatic_work_time_item_text_size">20sp</dimen>
+    <dimen name="climatic_work_time_week_item_text_size">17sp</dimen>
+    <!--Settings fragment-->
+    <dimen name="margin_bottom_from_block">8dp</dimen>
+    <dimen name="settings_block_text_size">15sp</dimen>
+    <dimen name="audio_balance_button_size">35dp</dimen>
+    <dimen name="audio_balance_button_padding">10dp</dimen>
+
+    <dimen name="climatic_degree_size">150dp</dimen>
+    <dimen name="climatic_degree_small_size">65dp</dimen>
+    <dimen name="climatic_drawable_padding">16dp</dimen>
+    <dimen name="climatic_pzhd_center_element_margin">2dp</dimen>
+    <dimen name="climatic_pzhd_week_content_padding">6dp</dimen>
+    <dimen name="climatic_pzhd_week_horizontal_margin">8dp</dimen>
+    <dimen name="climatic_pzhd_week__action_size">37dp</dimen>
+    <dimen name="climatic_number_width">50dp</dimen>
+    <dimen name="climatic_pzhd_shedule_week_margin_horizontal">4dp</dimen>
+
+    <dimen name="diagnostics_button_height">35dp</dimen>
+    <dimen name="diagnostics_vertical_bar_width">25dp</dimen>
+    <dimen name="diagnostics_suspension_vertical_bar_width">20dp</dimen>
+
+
+    <dimen name="diagnostics_vertical_bar_primary_text_size">15sp</dimen>
+    <dimen name="diagnostics_vertical_bar_second_text_size">14sp</dimen>
+
+    <dimen tools:override="true"
+        name="design_navigation_separator_vertical_padding">3dp</dimen>
+    <dimen name="diagnostics_fault_info_item_padding">10dp</dimen>
+    <dimen name="diagnostics_fault_info_sub_item_margin_horizontal">18dp</dimen>
+    <dimen name="dim_10_dp">10dp</dimen>
+    <dimen name="dimen_5_dp">5dp</dimen>
+
+</resources>

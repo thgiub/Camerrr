@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+        <color name="seekbar_background">#80000000</color>
+        <color name="icons_background">#20000000</color> <!-- when used as background color for imagebutton, the rgb color seems to be ignored for Android 6 onwards, but still relevant for older versions -->
+        <color name="icons_background_tint">#ff000000</color>
+        <color name="dividerColor">#14ffffff</color>
+        <color name="dividerColorOld">#70FFFFFF</color>
+        <color name="pulsingRecognizeColor">#d811ab7a</color>
+        <color name="radioButtonDisable">#96000000</color>
+        <color name="dialogSelectMediaTypeBackground">#c8aaaaaa</color>
+        <color name="dialogSelectMediaTypeTextColor">#FFFFFF</color>
+        <color name="fragment_bottom_background">#c9171a1b</color>
+        <color name="media_control_title_color">#cdd2d6</color>
+        <color name="media_control_time_color">#cccccc</color>
+        <color name="media_bottom_control_time_color">#7A7A7A</color>
+
+
+        <color name="active_fragment_background">#ac000000</color>
+        <color name="apps_group_background">#ac000000</color>
+        <color name="wheelViewMarkColor">#BAB1B1</color>
+        <color name="wheelViewTextColor">#ffffff</color>
+
+
+        <color name="devicesBackground">#3ae2e2e2</color>
+        <color name="dialogSolidColor">#171a1b</color>
+        <color name="dialogRadioBackground">#a1000000</color>
+
+        <color name="deleteContainerNormal">#38000000</color>
+        <color name="deleteContainerActive">#a6000000</color>
+        <color name="deleteIconTint">#e9c4c4c4</color>
+
+
+        <color name="goodTimeColor">#B9B9B9</color>
+        <color name="badTimeColor">#6E6E6E</color>
+        <color name="offTintColor">#9b9b9b</color>
+        <color name="onTintColor">#ffffff</color>
+        <color name="blurTintColor">#20000000</color>
+
+        <color name="calendarsDayClicked">#32cccccc</color>
+        <color name="calendarsEventsItem">#717171</color>
+
+
+        <color name="panel_text_color_active">#B9B9B9</color>
+        <color name="panel_text_color_passive">#6E6E6E</color>
+
+
+        <color name="connectSuccess">#a1ffffff</color>
+        <color name="equalizer_color">#855db0d7</color>
+
+
+        <color name="mineCheckboxEmpty">#7A7A7A</color>
+        <color name="mineCheckboxFilled">#7A7A7A</color>
+
+
+        <color name="bg_color_calendar">#96000000</color>
+        <color name="color_white">#f1f1f1</color>
+
+        <!--Colors for date and Time picker-->
+        <!--<color name="mdtp_accent_color">#B9B9B9</color>-->
+        <!--<color name="mdtp_accent_color_dark">#c9171a1b</color>-->
+        <color name="mDisableColor">#5abab1b1</color>
+
+        <!-- Colors for calendar -->
+
+        <color name="white">#fff</color>
+
+        <!-- date time picker -->
+        <color name="mdtp_date_background">#121f1f</color>
+
+
+        <!-- DatePicker Dark Theme -->
+        <color name="mdtp_date_picker_view_animator_dark_theme">#000</color>
+        <color name="mdtp_date_picker_text_normal_dark_theme">#f1f1f1</color>
+        <color name="mdtp_date_picker_month_day_dark_theme">#f1f1f1</color>
+        <color name="mdtp_date_picker_text_disabled_dark_theme">#767676</color>
+        <color name="mdtp_date_picker_text_highlighted_dark_theme">@color/mdtp_date_picker_text_normal_dark_theme</color>
+        <color name="mdtp_light_gray">#000000</color>
+        <color name="mdtp_background_color">#000000</color>
+
+        <!-- Новый календарь -->
+        <color name="event_calendar_point">#2375AD</color>
+        <color name="my_months_text_color">#fff</color>
+        <color name="my_weekday_text_color">#8C8C8C</color>
+
+        <!-- Circular Seek Bar -->
+        <color name="point_color">#7c00b9d4</color>
+        <color name="point_halo_color">#7c00b9d4</color>
+        <color name="text_color">#fff</color>
+        <color name="wheel_active_color">#7c00b9d4</color>
+        <color name="wheel_unactive_color">#041119</color>
+
+        <color name="climatic_radio_checked_on_color">#ffffff</color>
+        <color name="climatic_radio_checked_off_color">#47ffffff</color>
+        <color name="pzhd_error_icon_disable_tint">#A6E0E0E0</color>
+        <color name="pzhd_error_icon_enable_tint">#FF0000</color>
+
+        <color name="vertical_seek_progress_start_color">#15CEFF</color>
+        <color name="vertical_seek_progress_end_color">#524886</color>
+
+        <color name="tirePressureUnderColor">#E99D05</color>
+        <color name="tirePressureNormalColor">#FFFFFF</color>
+
+        <color name="triangleLevelColor1">#7300B4D4</color>
+        <color name="triangleLevelColor2">#33000000</color>
+        <color name="trinagleLevelBorderColor">#6300B4D4</color>
+
+
+</resources>

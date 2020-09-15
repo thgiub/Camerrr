@@ -1,0 +1,29 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="6dp">
+
+  <ImageView
+      android:id="@+id/img"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+
+      android:adjustViewBounds="true"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/img"
+        app:layout_constraintStart_toStartOf="@id/img"
+        android:clickable="true"
+        android:background="@null"
+        android:button="@drawable/select_drawable" />
+</androidx.constraintlayout.widget.ConstraintLayout>

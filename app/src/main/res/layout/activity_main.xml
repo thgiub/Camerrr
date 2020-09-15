@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextureView
+        android:id="@+id/surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" >
+    </TextureView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/liner"
+        android:layout_width="99dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#70000000"
+        android:backgroundTintMode="src_in"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/photoMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:background="@null"
+            android:textColor="@color/white"
+            android:text="Photo"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/videoMode"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_PhotoVideo"
+            app:layout_constraintVertical_chainStyle="packed" ></Button>
+
+        <Button
+            android:id="@+id/videoMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:background="@null"
+            android:text="Video"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/photoMode"></Button>
+
+        <ImageButton
+
+            android:id="@+id/bt_gallery"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:backgroundTintMode="src_in"
+            android:padding="6dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.498"  />
+
+        <ImageButton
+
+            android:id="@+id/bt_PhotoVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:scaleType="fitCenter"
+            android:src="@drawable/circle_white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Chronometer
+        android:id="@+id/timer"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTintMode="src_in"
+        android:padding="6dp"
+        app:layout_constraintVertical_bias="0.498"
+        android:visibility="invisible"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

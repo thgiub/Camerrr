@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/active_fragment_margin_horizontal"
+    android:paddingEnd="@dimen/active_fragment_margin_horizontal"
+    android:background="@drawable/design_second_background_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_black69">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:gravity="center">
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_photo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="12dp"
+                        android:layout_weight="1"
+                        android:text="@string/photo"
+                        android:textAlignment="center"
+                        android:background="@drawable/background_button_radio"
+                        android:button="@android:color/transparent"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:textAllCaps="true"
+                        android:checked="true"
+                        android:fontFamily="@font/pfdindisplaypro"
+                        android:textSize="12dp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_albums"
+                        android:layout_width="wrap_content"
+                        android:layout_height="12dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_weight="1"
+                        android:text="АЛЬБОМ"
+                        android:textAlignment="center"
+                        android:background="@drawable/background_button_radio"
+                        android:button="@android:color/transparent"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:textAllCaps="true"
+                        android:fontFamily="@font/pfdindisplaypro"
+                        android:textSize="12dp" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
